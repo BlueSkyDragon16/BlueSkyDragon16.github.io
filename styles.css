@@ -3,6 +3,10 @@ body, h1, h2, h3, p {
     padding: 0;
 }
 
+p {
+    color: #f4f4f4;
+}
+
 h3 {
     color: #c5770a;
     padding-top: 20px;
