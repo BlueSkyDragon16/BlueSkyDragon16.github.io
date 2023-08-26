@@ -3,6 +3,11 @@ body, h1, h2, h3, p {
     padding: 0;
 }
 
+h3 {
+    color: #c5770a;
+    padding-top: 20px;
+}
+
 .hero {
     text-align: center;
     padding: 100px 0;
@@ -14,11 +19,17 @@ body, h1, h2, h3, p {
 }
 
 .projects {
-    padding: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
 }
 
 .project {
     margin-bottom: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    background-color: #002947;
+    border-radius: 30px;
 }
 
 body {
@@ -29,6 +40,15 @@ body {
 .topnav {
   overflow: hidden;
   background-color: #333;
+}
+.topnav b {
+    float: left;
+    color: #f2f2f2;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    text-decoration: none;
+    font-size: 17px;
 }
 
 .topnav a {
@@ -55,8 +75,12 @@ body {
   display: none;
 }
 
+.topnav-right {
+    float: right;
+}
+
 @media screen and (max-width: 600px) {
-  .topnav a:not(:first-child) {display: none;}
+  .topnav a{display: none;}
   .topnav a.icon {
     float: right;
     display: block;
