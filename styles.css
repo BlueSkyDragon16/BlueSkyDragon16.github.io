@@ -3,10 +3,6 @@ body, h1, h2, h3, p {
     padding: 0;
 }
 
-p {
-    color: #f4f4f4;
-}
-
 h3 {
     color: #c5770a;
     padding-top: 20px;
@@ -94,9 +90,8 @@ body {
 @media screen and (max-width: 600px) {
   .topnav.responsive {position: relative;}
   .topnav.responsive .icon {
-    position: absolute;
-    right: 0;
-    top: 0;
+    position: relative;
+    text-align: right;
   }
   .topnav.responsive a {
     float: none;
