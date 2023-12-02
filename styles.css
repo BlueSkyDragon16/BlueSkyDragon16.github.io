@@ -36,6 +36,115 @@ a {
     color: white; /* Set the color to white */
 }
 
+a:hover {
+    color:aquamarine;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 5em;
+}
+
+.item {
+    width: 20em;
+    min-width: 250px;
+    /* Subtract margin to ensure two columns */
+    height: 20em;
+    background-color: rgb(254, 254, 254);
+    margin: 1vw;
+    display: flex;
+    background-size: auto 90%;
+    background-position-x: center;
+    background-position-y: bottom;
+    justify-content: center;
+    font-size: 1em;
+    font-weight: bold;
+    color: rgb(90, 90, 90);
+    padding-top: 10px;
+}
+
+.item:hover {
+    background-position: center;
+    background-size: 150%;
+}
+
+.ai3mx {
+    background-image: url('./images/ai3mx.jpg');
+    background-repeat: no-repeat;
+}
+
+.apm2 {
+    background-image: url('./images/apm2.jpg');
+    background-repeat: no-repeat;
+}
+
+.f360 {
+    background-image: url('./images/f360.png');
+    background-repeat: no-repeat;
+}
+
+.cura {
+    background-image: url('./images/cura-icon.png');
+    background-repeat: no-repeat;
+}
+
+.apw {
+    background-image: url('./images/apw.jpg');
+    background-repeat: no-repeat;
+}
+
+.website {
+    background-image: url('./images/website.png');
+    
+    background-repeat: no-repeat;
+}
+
+.Winkler-Streets {
+    background-image: url('./images/Logo.png');
+    background-repeat: no-repeat;
+}
+
+.Forklift {
+    background-image: url('./images/forky.png');
+    background-repeat: no-repeat;
+}
+
+.Weather {
+    background-image: url('./images/Esp8266.png');
+    background-repeat: no-repeat;
+}
+
+.teddy-treat {
+    background-image: url('./images/TTD.png');
+    background-repeat: no-repeat;
+}
+
+.item6 {
+    background-image: url('./images/apw.jpg');
+    background-repeat: no-repeat;
+}
+
+.foot {
+    font-size: small;
+    padding: 10px;
+}
+
+@media (max-width: 600px) {
+    .item {
+        width: 100%;
+    }
+    @media (max-width: 400px) {
+        .item {
+            width: 10em;
+            height: 10em;
+            min-width: 10em;
+            margin: 1em; /* Adjust margin for smaller screens */
+        }
+    }
+}
+
 /* Media query for smaller screens */
 @media (max-width: 600px) {
     body {
