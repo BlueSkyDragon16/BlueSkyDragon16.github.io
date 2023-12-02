@@ -150,7 +150,9 @@ a:hover {
       margin: 1em; /* Adjust margin for smaller screens */
       width: 100%;
     }
+
     @media (max-width: 400px) {
+        
         .item {
             width: 10em;
             height: 10em;
@@ -169,8 +171,9 @@ a:hover {
 
 /* Media query for smaller screens */
 @media (max-width: 600px) {
+    
   body {
-    padding: 10px; /* Adjust padding for smaller screens */
+      padding: 10px; /* Adjust padding for smaller screens */
   }
 
   h1 {
