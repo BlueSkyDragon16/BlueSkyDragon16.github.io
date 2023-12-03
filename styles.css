@@ -72,7 +72,7 @@ a:hover {
 }
 
 .item:hover {
-  transition: 0.8;
+  transition: 0.8s;
   background-position: center;
   background-size: 150%;
 }
