@@ -25,14 +25,30 @@
       color: white;
       font-family: Arial, sans-serif;
       text-align: center;
-      max-width: 1000px; /* Set the maximum width for the container */
       padding: 20px; /* Add some padding for better spacing */
       overflow: hidden; /* Prevent horizontal scrollbar */
     }
   </style>
   <script type="module">
-    import { snowflakeCursor } from "https://unpkg.com/cursor-effects@latest/dist/esm.js";
-    new snowflakeCursor();
+    const d = new Date();
+    let month = d.getMonth();
+    let monthEmoji = [
+    ['❄️','☃️'],/* Jan 0 */
+    ['❤️','😘'],/* Feb 1 */
+    ['🍀','☘️'],/* Mar 2 */
+    ['🌧','☔️'],/* Apr 3 */
+    ['🌸','🌻'],/* May 4 */
+    ['🎂','🎉'],/* June 5 */
+    ['☀️','🍦'],/* July 6 */
+    ['🍦','🎉'],/* Aug 7 */
+    ['✏️','🎓'],/* Sept 8 */
+    ['🎃','👻'],/* Oct 9 */
+    ['🦃','🕯'],/* Nov 10 */
+    ['🎄','🎁','❄️']/* Dec 11 */
+    ];
+    
+    import { emojiCursor } from "https://unpkg.com/cursor-effects@latest/dist/esm.js";
+    new emojiCursor({ emoji: monthEmoji[month] });
   </script>
   <body>
     <header>
@@ -65,7 +81,7 @@
             <a
               class="fa fa-envelope"
               target="_blank"
-              href="mailto: zephsuderman@gmail.com"
+              href="mailto: contact@zephsuderman.ca"
             ></a>
           </li>
           <li>
