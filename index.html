@@ -3,6 +3,17 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="icon" href="favicons_m/favicon.ico" id="favicon">
+    <script>
+      window.onload = function() {
+          var favicon = document.getElementById('favicon');
+          var date = new Date();
+          var month = date.getMonth(); // JavaScript months are 0-based
+
+          // Set favicon based on month
+          favicon.href = "favicons_m/" + month + ".ico";
+      };
+  </script>
     <title>Zeph Suderman - Home</title>
     <link
       rel="stylesheet"
