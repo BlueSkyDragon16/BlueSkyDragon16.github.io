@@ -1,0 +1,197 @@
+h1 {
+  color: rgb(255, 255, 255);
+  font-family: Arial, sans-serif;
+  text-align: center;
+  font-size: 4em;
+  margin-bottom: 10px;
+  text-shadow: 0 0 30px rgba(255, 255, 255, 0.3); /*White Glow*/
+  z-index: 1;
+}
+
+h4 {
+    position: absolute;
+    text-align: left;
+    padding: 3vw;
+}
+
+p {
+  font-size: 1.5em;
+  margin: 1.5em;
+}
+
+nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 3em;
+}
+
+li {
+  font-size: 3em;
+}
+
+a {
+  text-decoration: none;
+  color: white; /* Set the color to white */
+}
+
+a:hover {
+  color: aquamarine;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 5em;
+}
+
+.item {
+  width: 20em;
+  min-width: 250px;
+  /* Subtract margin to ensure two columns */
+  height: 20em;
+  background-color: rgb(254, 254, 254);
+  margin: 1vw;
+  display: flex;
+  background-size: auto 90%;
+  background-position-x: center;
+  background-position-y: bottom;
+  justify-content: center;
+  font-size: 1em;
+  font-weight: bold;
+  color: rgb(90, 90, 90);
+  padding-top: 10px;
+}
+
+.item:hover {
+  transition: 0.8s;
+  background-position: center;
+  background-size: 150%;
+}
+
+.ai3mx {
+  background-image: url("./images/ai3mx.jpg");
+  background-repeat: no-repeat;
+}
+
+.apm2 {
+  background-image: url("./images/apm2.jpg");
+  background-repeat: no-repeat;
+}
+
+.f360 {
+  background-image: url("./images/f360.png");
+  background-repeat: no-repeat;
+}
+
+.cura {
+  background-image: url("./images/cura-icon.png");
+  background-repeat: no-repeat;
+}
+
+.apw {
+  background-image: url("./images/apw.jpg");
+  background-repeat: no-repeat;
+}
+
+.website {
+  background-image: url("./images/website.png");
+  background-repeat: no-repeat;
+}
+
+.web2 {
+  background-image: url("./images/z3d.png");
+  background-repeat: no-repeat;
+}
+
+.Winkler-Streets {
+  background-image: url("./images/Logo.png");
+  background-repeat: no-repeat;
+}
+
+.Forklift {
+  background-image: url("./images/forky.png");
+  background-repeat: no-repeat;
+}
+
+.Weather {
+  background-image: url("./images/Esp8266.png");
+  background-repeat: no-repeat;
+}
+
+.teddy-treat {
+  background-image: url("./images/TTD.png");
+  background-repeat: no-repeat;
+}
+
+.item6 {
+  background-image: url("./images/apw.jpg");
+  background-repeat: no-repeat;
+}
+
+.foot {
+  font-size: small;
+  padding: 10px;
+}
+
+@media (max-width: 600px) {
+  .item {
+    width: 100%;
+  }
+  @media (max-width: 400px) {
+    .item {
+      width: 10em;
+      height: 10em;
+      min-width: 10em;
+      margin: 1em; /* Adjust margin for smaller screens */
+      width: 100%;
+    }
+
+    @media (max-width: 400px) {
+        
+        .item {
+            width: 10em;
+            height: 10em;
+            min-width: 10em;
+            margin: 1em; /* Adjust margin for smaller screens */
+        }
+
+        h4 {
+            position: relative;
+            text-align: center;
+            padding: 0%;
+        }
+    }
+  }
+}
+
+/* Media query for smaller screens */
+@media (max-width: 600px) {
+    
+  body {
+      padding: 10px; /* Adjust padding for smaller screens */
+  }
+
+  h1 {
+    font-size: 2em; /* Adjust font size for smaller screens */
+  }
+  p {
+    font-size: small;
+  }
+
+  ul {
+    gap: 1em;
+  }
+
+  li {
+    font-size: 1.5em; /* Adjust font size for smaller screens */
+  }
+}
